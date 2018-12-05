@@ -1,12 +1,7 @@
 package se.tre.learning.springbootdocker;
 
-import javax.persistence.*;
-
-@Entity
 public class Agent {
 
-    @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
     private String firstName;
     private String lastName;
