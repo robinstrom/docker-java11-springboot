@@ -24,7 +24,7 @@ Here you check that the Hyper-V checkbox is marked, if not, then do it now. Then
 
 Creating the Dockerfile:
 
-To have a project running in a Docker container, we need a Dockerfile. So after you've created your Spring Boot project, create a file called Dockerfile.
+To have a project running in a Docker container, we need a Dockerfile. So after you've created your Spring Boot project, create a file called Dockerfile in your project folder.
 
 If we don't want to write everything from scratch, there are a lot of great Base-Images on DockerHub (https://hub.docker.com/).
 For this project, we want a base-image with an OS that is able to run Java 11. OpenJDK has a lot of different Images to choose from uploaded on Docker Hub,
