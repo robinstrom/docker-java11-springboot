@@ -21,7 +21,8 @@ To enable Hyper-V, simply put "Hyper-V" in your searchbar which appears after pr
 and select: Turn Windows features on or off.
 Here you check that the Hyper-V checkbox is marked, if not, then do it now. Then Restart your computer.
 
-Creating the Dockerfile
+
+Creating the Dockerfile:
 
 To have a project running in a Docker container, we need a Dockerfile. So after you've created your Spring Boot project, create a file called Dockerfile.
 
