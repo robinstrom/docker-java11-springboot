@@ -1,7 +1,7 @@
 # docker-java11-springboot
 A tutorial on how to setup Docker with a simple Spring Boot 2 application written in Java 11 and build with Gradle 4.10.
 
-If you want to setup Docker on a virtual machine for Linux Ubuntu or Linux Red Hat, then you can follow my earlier walkthroughs here:
+If you want to setup Docker For a Linux OS or on a virtual machine for Linux Ubuntu or Linux Red Hat Enterprise, then you can follow my earlier walkthroughs here:
 
     https://github.com/robinstrom/docker-ee-linuxredhatenterprise7
 
