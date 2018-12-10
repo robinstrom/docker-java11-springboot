@@ -63,6 +63,11 @@ If everything has gone as it's supposed to, then you can start up a Container ba
 This command will run docker on port 8085, using our newly created Image "docker-java11"
 The project and Image is both pointing to port 8085.
 
+To be able to SSH into your running container, you need the Containers ID. To get information about the running containers, write:
+
+    docker ps
+
+
 Still as an administrator, SSH into your running Container and starting bash inside it:
 
     docker exec -t <CONTAINER ID> /bin/bash
