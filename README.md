@@ -45,6 +45,8 @@ Setting the command and parameters that will be executed first when the containe
     ENTRYPOINT ["java", "-jar", "docker-java11-springboot-0.1.0.jar"]
 
 
+Building and Running you Docker Image:
+
 Open up your Command Prompt as Administrator and change directory in to your project folder:
 
     cd path/to/project/
