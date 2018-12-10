@@ -59,6 +59,6 @@ If everything has gone as it's supposed to, then you can start up a Container ba
 
     docker run -p 8085:8085 docker-java11
     
-What this command means is that we want to run docker on port 8085, using our newly created Image "docker-java11"
+This command will run docker on port 8085, using our newly created Image "docker-java11"
 The project and Image is both pointing to port 8085.
 
