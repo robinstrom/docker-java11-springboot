@@ -70,7 +70,7 @@ To be able to SSH into your running container, you need the Containers ID. To ge
 
 Still as an administrator, SSH into your running Container and starting bash inside it:
 
-    docker exec -t <CONTAINER ID> /bin/bash
+    docker exec -it <CONTAINER ID> /bin/bash
     
 You are now logged in as root inside of your Container.
 
