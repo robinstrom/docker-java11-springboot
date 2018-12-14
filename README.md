@@ -72,5 +72,9 @@ Still as an administrator, SSH into your running Container and starting bash ins
 
     docker exec -it <CONTAINER ID> /bin/bash
     
+*** Be aware of that the structure of the OS is different depending on what OS you have, so for example, if you're using an Alpine base image, then you can open bash in the container by writing:
+
+    docker exec -it <CONTAINER ID> /bin/sh
+    
 You are now logged in as root inside of your Container.
 
