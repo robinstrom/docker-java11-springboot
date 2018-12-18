@@ -82,3 +82,12 @@ To see your logs of your application:
 
     docker logs <CONTAINER ID>
 
+To create a shared folder to container and host:
+
+Create folder locally:
+
+    mkdir volume-test
+    
+Now run the container and create a volume, pointing to the newly created folder : folder in container:
+
+    docker run -it -p 8085:8085 -v /absolute/path/to/newfolder/volume-test:/volume-test idfoister-alpine-java11-2
