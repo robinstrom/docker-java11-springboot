@@ -87,7 +87,7 @@ Create folder on host:
     
 Now run the container and create a volume, pointing to the newly created folder on your local : folder in container:
 
-    docker run -it -p 8085:8085 -v /absolute/path/to/newfolder/container-logs:/logs idfoister-alpine-java11-2
+    docker run -it -p 8085:8085 -v /absolute/path/to/newfolder/container-logs:/logs docker-java11
     
 If you just want to check the logs quickly without setting up a volume:
 
