@@ -78,3 +78,7 @@ Still as an administrator, SSH into your running Container and starting bash ins
     
 You are now logged in as root inside of your Container.
 
+To see your logs of your application:
+
+    docker logs <CONTAINER ID>
+
