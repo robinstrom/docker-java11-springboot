@@ -78,16 +78,17 @@ Still as an administrator, SSH into your running Container and starting bash ins
     
 You are now logged in as root inside of your Container.
 
-To see your logs of your application:
+
+To be able to watch and save the container logs in the host, you have to create a shared folder:
+
+Create folder on host:
+
+    mkdir container-logs
+    
+Now run the container and create a volume, pointing to the newly created folder on your local : folder in container:
+
+    docker run -it -p 8085:8085 -v /absolute/path/to/newfolder/container-logs:/logs idfoister-alpine-java11-2
+    
+If you just want to check the logs quickly without setting up a volume:
 
     docker logs <CONTAINER ID>
-
-To create a shared folder to container and host:
-
-Create folder locally:
-
-    mkdir volume-test
-    
-Now run the container and create a volume, pointing to the newly created folder : folder in container:
-
-    docker run -it -p 8085:8085 -v /absolute/path/to/newfolder/volume-test:/volume-test idfoister-alpine-java11-2
